@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.html",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp index.html dist/ && cp style.css dist/"
     "watch": "tsc -w",
     "serve": "http-server . -p 8000",
     "dev": "concurrently \"npm run watch\" \"npm run serve\""
