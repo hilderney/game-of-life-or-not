@@ -9,7 +9,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
-    "sourceMap": true
+    "sourceMap": true,
+    "noEmitOnError": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
